@@ -120,5 +120,6 @@ print(train_tweet_data.head())
 
 # Merge Tweet Data with Timeseries Data
 data_close = data[columns]
-data_w_tweets = train_tweet_data.merge(data_close, left_index=True, right_index=True)
-data_w_tweets.head()
+print(data_close.head())
+# data_w_tweets = train_tweet_data.merge(data_close, left_index=True, right_index=True)
+# data_w_tweets.head()
